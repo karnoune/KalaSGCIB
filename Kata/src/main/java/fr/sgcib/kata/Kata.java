@@ -47,7 +47,7 @@ public class Kata {
              found=true;
           }
           
-          if((i / 11) == 5){
+          if(rs == 5){
               data = data +"Bar";
               found=true;
            }
@@ -56,7 +56,8 @@ public class Kata {
              data= data + "Qix";
              found=true;
           }
-          if((i / 11) == 7){
+          
+          if(rs == 7){
               data = data +"Qix";
               found=true;
            }
